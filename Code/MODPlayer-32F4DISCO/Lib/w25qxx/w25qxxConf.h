@@ -1,6 +1,7 @@
 #ifndef _W25QXXCONFIG_H
 #define _W25QXXCONFIG_H
 
+extern SPI_HandleTypeDef hspi1;
 
 // #define		_W25QXX_SPI										hspi1
 #define		_W25QXX_SPI										    hspi1
