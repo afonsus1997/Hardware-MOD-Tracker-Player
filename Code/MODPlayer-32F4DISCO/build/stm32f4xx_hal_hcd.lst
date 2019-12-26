@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccOAgmEO.s 			page 1
+ARM GAS  /tmp/ccVocXJv.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (##) Initialize the related GPIO clocks
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (##) Configure HCD pin-out
-ARM GAS  /tmp/ccOAgmEO.s 			page 2
+ARM GAS  /tmp/ccVocXJv.s 			page 2
 
 
   33:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (##) Configure HCD NVIC interrupt
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /* Exported functions --------------------------------------------------------*/
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /** @defgroup HCD_Exported_Functions HCD Exported Functions
-ARM GAS  /tmp/ccOAgmEO.s 			page 3
+ARM GAS  /tmp/ccVocXJv.s 			page 3
 
 
   90:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     /* Init the low level hardware */
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     hhcd->MspInitCallback(hhcd);
  146:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #else
-ARM GAS  /tmp/ccOAgmEO.s 			page 4
+ARM GAS  /tmp/ccVocXJv.s 			page 4
 
 
  147:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     /* Init the low level hardware : GPIO, CLOCK, NVIC... */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** HAL_StatusTypeDef HAL_HCD_HC_Init(HCD_HandleTypeDef *hhcd,
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                   uint8_t ch_num,
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                   uint8_t epnum,
-ARM GAS  /tmp/ccOAgmEO.s 			page 5
+ARM GAS  /tmp/ccVocXJv.s 			page 5
 
 
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                   uint8_t dev_address,
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /**
-ARM GAS  /tmp/ccOAgmEO.s 			page 6
+ARM GAS  /tmp/ccVocXJv.s 			page 6
 
 
  261:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @brief  DeInitialize the host driver.
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** __weak void  HAL_HCD_MspDeInit(HCD_HandleTypeDef *hhcd)
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** {
  317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Prevent unused argument(s) compilation warning */
-ARM GAS  /tmp/ccOAgmEO.s 			page 7
+ARM GAS  /tmp/ccVocXJv.s 			page 7
 
 
  318:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   UNUSED(hhcd);
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint8_t *pbuff,
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint16_t length,
  374:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint8_t do_ping)
-ARM GAS  /tmp/ccOAgmEO.s 			page 8
+ARM GAS  /tmp/ccVocXJv.s 			page 8
 
 
  375:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** {
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         }
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
  431:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       else
-ARM GAS  /tmp/ccOAgmEO.s 			page 9
+ARM GAS  /tmp/ccVocXJv.s 			page 9
 
 
  432:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return USB_HC_StartXfer(hhcd->Instance, &hhcd->hc[ch_num], (uint8_t)hhcd->Init.dma_enable);
  488:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/ccOAgmEO.s 			page 10
+ARM GAS  /tmp/ccVocXJv.s 			page 10
 
 
  489:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #if (USE_HAL_HCD_REGISTER_CALLBACKS == 1U)
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       hhcd->DisconnectCallback(hhcd);
  545:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #else
-ARM GAS  /tmp/ccOAgmEO.s 			page 11
+ARM GAS  /tmp/ccVocXJv.s 			page 11
 
 
  546:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       HAL_HCD_Disconnect_Callback(hhcd);
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  602:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/ccOAgmEO.s 			page 12
+ARM GAS  /tmp/ccVocXJv.s 			page 12
 
 
  603:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   UNUSED(hhcd);
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  659:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  /tmp/ccOAgmEO.s 			page 13
+ARM GAS  /tmp/ccVocXJv.s 			page 13
 
 
  660:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****             the HAL_HCD_Disconnect_Callback could be implemented in the user file
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_CONNECT_CB_ID USB HCD Connect callback ID
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_DISCONNECT_CB_ID OTG HCD Disconnect callback ID
  716:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_PORT_ENABLED_CB_ID USB HCD Port Enable callback ID
-ARM GAS  /tmp/ccOAgmEO.s 			page 14
+ARM GAS  /tmp/ccVocXJv.s 			page 14
 
 
  717:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_PORT_DISABLED_CB_ID USB HCD Port Disable callback ID
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         /* Return error status */
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         status =  HAL_ERROR;
  773:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         break;
-ARM GAS  /tmp/ccOAgmEO.s 			page 15
+ARM GAS  /tmp/ccVocXJv.s 			page 15
 
 
  774:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Process locked */
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   __HAL_LOCK(hhcd);
  830:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/ccOAgmEO.s 			page 16
+ARM GAS  /tmp/ccVocXJv.s 			page 16
 
 
  831:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Setup Legacy weak Callbacks  */
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       default :
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         /* Update the error code */
  887:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         hhcd->ErrorCode |= HAL_HCD_ERROR_INVALID_CALLBACK;
-ARM GAS  /tmp/ccOAgmEO.s 			page 17
+ARM GAS  /tmp/ccVocXJv.s 			page 17
 
 
  888:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Release Lock */
  944:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   __HAL_UNLOCK(hhcd);
-ARM GAS  /tmp/ccOAgmEO.s 			page 18
+ARM GAS  /tmp/ccVocXJv.s 			page 18
 
 
  945:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1001:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /**
-ARM GAS  /tmp/ccOAgmEO.s 			page 19
+ARM GAS  /tmp/ccVocXJv.s 			page 19
 
 
 1002:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @brief  Start the host driver.
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1058:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /**
-ARM GAS  /tmp/ccOAgmEO.s 			page 20
+ARM GAS  /tmp/ccVocXJv.s 			page 20
 
 
 1059:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @brief  Return the HCD handle state.
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1113:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *            HC_XACTERR/
 1114:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *            HC_BBLERR/
 1115:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *            HC_DATATGLERR
-ARM GAS  /tmp/ccOAgmEO.s 			page 21
+ARM GAS  /tmp/ccVocXJv.s 			page 21
 
 
 1116:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1170:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_CLEAR_HC_INT(ch_num, USB_OTG_HCINT_AHBERR);
 1171:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_UNMASK_HALT_HC_INT(ch_num);
 1172:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
-ARM GAS  /tmp/ccOAgmEO.s 			page 22
+ARM GAS  /tmp/ccVocXJv.s 			page 22
 
 
 1173:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   else if ((USBx_HC(ch_num)->HCINT & USB_OTG_HCINT_ACK) == USB_OTG_HCINT_ACK)
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1227:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1228:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #if (USE_HAL_HCD_REGISTER_CALLBACKS == 1U)
 1229:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       hhcd->HC_NotifyURBChangeCallback(hhcd, (uint8_t)ch_num, hhcd->hc[ch_num].urb_state);
-ARM GAS  /tmp/ccOAgmEO.s 			page 23
+ARM GAS  /tmp/ccVocXJv.s 			page 23
 
 
 1230:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #else
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1284:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       /* ... */
 1285:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
 1286:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_CLEAR_HC_INT(ch_num, USB_OTG_HCINT_CHH);
-ARM GAS  /tmp/ccOAgmEO.s 			page 24
+ARM GAS  /tmp/ccVocXJv.s 			page 24
 
 
 1287:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     HAL_HCD_HC_NotifyURBChange_Callback(hhcd, (uint8_t)ch_num, hhcd->hc[ch_num].urb_state);
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1341:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   uint32_t tmpreg;
 1342:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1343:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   if ((USBx_HC(ch_num)->HCINT & USB_OTG_HCINT_AHBERR) == USB_OTG_HCINT_AHBERR)
-ARM GAS  /tmp/ccOAgmEO.s 			page 25
+ARM GAS  /tmp/ccVocXJv.s 			page 25
 
 
 1344:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
 1399:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         hhcd->hc[ch_num].do_ping = 1U;
 1400:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
-ARM GAS  /tmp/ccOAgmEO.s 			page 26
+ARM GAS  /tmp/ccVocXJv.s 			page 26
 
 
 1401:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1455:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
 1456:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       else
 1457:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
-ARM GAS  /tmp/ccOAgmEO.s 			page 27
+ARM GAS  /tmp/ccVocXJv.s 			page 27
 
 
 1458:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         hhcd->hc[ch_num].urb_state = URB_NOTREADY;
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1495:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1496:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   temp = hhcd->Instance->GRXSTSP;
   44              		.loc 1 1496 0
-ARM GAS  /tmp/ccOAgmEO.s 			page 28
+ARM GAS  /tmp/ccVocXJv.s 			page 28
 
 
   45 0004 346A     		ldr	r4, [r6, #32]
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
   84 003c DA6C     		ldr	r2, [r3, #76]
   85 003e 2244     		add	r2, r2, r4
   86 0040 DA64     		str	r2, [r3, #76]
-ARM GAS  /tmp/ccOAgmEO.s 			page 29
+ARM GAS  /tmp/ccVocXJv.s 			page 29
 
 
 1512:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  119 0076 00BF     		.align	2
  120              	.L5:
  121 0078 0000F81F 		.word	536346624
-ARM GAS  /tmp/ccOAgmEO.s 			page 30
+ARM GAS  /tmp/ccVocXJv.s 			page 30
 
 
  122              		.cfi_endproc
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  215:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   hhcd->hc[ch_num].ep_type = ep_type;
  172              		.loc 1 215 0 discriminator 2
  173 003a 84F83910 		strb	r1, [r4, #57]
-ARM GAS  /tmp/ccOAgmEO.s 			page 31
+ARM GAS  /tmp/ccVocXJv.s 			page 31
 
 
  216:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   hhcd->hc[ch_num].ep_num = epnum & 0x7FU;
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  219              		.loc 1 221 0
  220 0088 01EB810C 		add	ip, r1, r1, lsl #2
  221 008c 4FEACC04 		lsl	r4, ip, #3
-ARM GAS  /tmp/ccOAgmEO.s 			page 32
+ARM GAS  /tmp/ccVocXJv.s 			page 32
 
 
  222 0090 0444     		add	r4, r4, r0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  271              		.loc 1 258 0 discriminator 2
  272 001e 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/ccOAgmEO.s 			page 33
+ARM GAS  /tmp/ccVocXJv.s 			page 33
 
 
  273              	.LVL24:
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  325 0002 45D0     		beq	.L26
  112:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   USB_OTG_GlobalTypeDef *USBx;
  326              		.loc 1 112 0
-ARM GAS  /tmp/ccOAgmEO.s 			page 34
+ARM GAS  /tmp/ccVocXJv.s 			page 34
 
 
  327 0004 F0B5     		push	{r4, r5, r6, r7, lr}
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  374 0044 371D     		adds	r7, r6, #4
  375 0046 97E80E00 		ldm	r7, {r1, r2, r3}
  376 004a 6046     		mov	r0, ip
-ARM GAS  /tmp/ccOAgmEO.s 			page 35
+ARM GAS  /tmp/ccVocXJv.s 			page 35
 
 
  377 004c FFF7FEFF 		bl	USB_CoreInit
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  424              		.cfi_restore 4
  425              		.cfi_restore 5
  426              		.cfi_restore 6
-ARM GAS  /tmp/ccOAgmEO.s 			page 36
+ARM GAS  /tmp/ccVocXJv.s 			page 36
 
 
  427              		.cfi_restore 7
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  478              		.cfi_def_cfa_offset 8
  479              		.cfi_offset 4, -8
  480              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccOAgmEO.s 			page 37
+ARM GAS  /tmp/ccVocXJv.s 			page 37
 
 
  481 0004 0446     		mov	r4, r0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  529              		.cfi_offset 3, -24
  530              		.cfi_offset 4, -20
  531              		.cfi_offset 5, -16
-ARM GAS  /tmp/ccOAgmEO.s 			page 38
+ARM GAS  /tmp/ccVocXJv.s 			page 38
 
 
  532              		.cfi_offset 6, -12
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  578 0050 40F08480 		bne	.L43
  396:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         {
  579              		.loc 1 396 0 is_stmt 1
-ARM GAS  /tmp/ccOAgmEO.s 			page 39
+ARM GAS  /tmp/ccVocXJv.s 			page 39
 
 
  580 0054 36B9     		cbnz	r6, .L49
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  627 00aa 0022     		movs	r2, #0
  628 00ac 83F84220 		strb	r2, [r3, #66]
  629 00b0 54E0     		b	.L43
-ARM GAS  /tmp/ccOAgmEO.s 			page 40
+ARM GAS  /tmp/ccVocXJv.s 			page 40
 
 
  630              	.L52:
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  677 0104 D300     		lsls	r3, r2, #3
  678 0106 0344     		add	r3, r3, r0
  679 0108 0022     		movs	r2, #0
-ARM GAS  /tmp/ccOAgmEO.s 			page 41
+ARM GAS  /tmp/ccVocXJv.s 			page 41
 
 
  680 010a 83F84220 		strb	r2, [r3, #66]
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  728 015e 5418     		adds	r4, r2, r1
  729 0160 E300     		lsls	r3, r4, #3
  730 0162 0344     		add	r3, r3, r0
-ARM GAS  /tmp/ccOAgmEO.s 			page 42
+ARM GAS  /tmp/ccVocXJv.s 			page 42
 
 
  731 0164 079C     		ldr	r4, [sp, #28]
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  778 0000 7047     		bx	lr
  779              		.cfi_endproc
  780              	.LFE138:
-ARM GAS  /tmp/ccOAgmEO.s 			page 43
+ARM GAS  /tmp/ccVocXJv.s 			page 43
 
 
  782              		.section	.text.HAL_HCD_Connect_Callback,"ax",%progbits
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  836              		@ args = 0, pretend = 0, frame = 0
  837              		@ frame_needed = 0, uses_anonymous_args = 0
  838              		@ link register save eliminated.
-ARM GAS  /tmp/ccOAgmEO.s 			page 44
+ARM GAS  /tmp/ccVocXJv.s 			page 44
 
 
  839              	.LVL70:
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  886 0002 83B0     		sub	sp, sp, #12
  887              	.LCFI16:
  888              		.cfi_def_cfa_offset 24
-ARM GAS  /tmp/ccOAgmEO.s 			page 45
+ARM GAS  /tmp/ccVocXJv.s 			page 45
 
 
  889 0004 0546     		mov	r5, r0
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1567:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
 1568:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
 1569:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Check whether Port Enable Changed */
-ARM GAS  /tmp/ccOAgmEO.s 			page 46
+ARM GAS  /tmp/ccVocXJv.s 			page 46
 
 
 1570:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   if ((hprt0 & USB_OTG_HPRT_PENCHNG) == USB_OTG_HPRT_PENCHNG)
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       HAL_HCD_Connect_Callback(hhcd);
  943              		.loc 1 1599 0
  944 005e 2846     		mov	r0, r5
-ARM GAS  /tmp/ccOAgmEO.s 			page 47
+ARM GAS  /tmp/ccVocXJv.s 			page 47
 
 
  945 0060 FFF7FEFF 		bl	HAL_HCD_Connect_Callback
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1558:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  971              		.loc 1 1558 0
  972 007e A369     		ldr	r3, [r4, #24]
-ARM GAS  /tmp/ccOAgmEO.s 			page 48
+ARM GAS  /tmp/ccVocXJv.s 			page 48
 
 
  973 0080 23F00053 		bic	r3, r3, #536870912
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1019              	.LFE156:
  1021              		.section	.text.HAL_HCD_HC_NotifyURBChange_Callback,"ax",%progbits
  1022              		.align	1
-ARM GAS  /tmp/ccOAgmEO.s 			page 49
+ARM GAS  /tmp/ccVocXJv.s 			page 49
 
 
  1023              		.weak	HAL_HCD_HC_NotifyURBChange_Callback
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1075 0012 13F0040F 		tst	r3, #4
  1076 0016 3ED0     		beq	.L79
 1170:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_UNMASK_HALT_HC_INT(ch_num);
-ARM GAS  /tmp/ccOAgmEO.s 			page 50
+ARM GAS  /tmp/ccVocXJv.s 			page 50
 
 
  1077              		.loc 1 1170 0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1121              		.loc 1 1214 0
  1122 0060 A260     		str	r2, [r4, #8]
 1216:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (hhcd->hc[ch_num].ep_type == EP_TYPE_BULK))
-ARM GAS  /tmp/ccOAgmEO.s 			page 51
+ARM GAS  /tmp/ccVocXJv.s 			page 51
 
 
  1123              		.loc 1 1216 0
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1168 00ae 13F4806F 		tst	r3, #1024
  1169 00b2 B7D0     		beq	.L80
 1187:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     (void)USB_HC_Halt(hhcd->Instance, (uint8_t)ch_num);
-ARM GAS  /tmp/ccOAgmEO.s 			page 52
+ARM GAS  /tmp/ccVocXJv.s 			page 52
 
 
  1170              		.loc 1 1187 0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1215 00fc FFF7FEFF 		bl	USB_HC_Halt
  1216              	.LVL98:
  1217 0100 90E7     		b	.L80
-ARM GAS  /tmp/ccOAgmEO.s 			page 53
+ARM GAS  /tmp/ccVocXJv.s 			page 53
 
 
  1218              	.L103:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1243:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  1263              		.loc 1 1243 0
  1264 014c E368     		ldr	r3, [r4, #12]
-ARM GAS  /tmp/ccOAgmEO.s 			page 54
+ARM GAS  /tmp/ccVocXJv.s 			page 54
 
 
  1265 014e 23F00203 		bic	r3, r3, #2
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1308 0198 D300     		lsls	r3, r2, #3
  1309 019a 3344     		add	r3, r3, r6
  1310 019c 0122     		movs	r2, #1
-ARM GAS  /tmp/ccOAgmEO.s 			page 55
+ARM GAS  /tmp/ccVocXJv.s 			page 55
 
 
  1311 019e 83F85C20 		strb	r2, [r3, #92]
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1357              		.loc 1 1268 0
  1358 01f0 D7F80035 		ldr	r3, [r7, #1280]
  1359              	.LVL107:
-ARM GAS  /tmp/ccOAgmEO.s 			page 56
+ARM GAS  /tmp/ccVocXJv.s 			page 56
 
 
 1269:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       tmpreg |= USB_OTG_HCCHAR_CHENA;
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1404 0240 0022     		movs	r2, #0
  1405 0242 9A65     		str	r2, [r3, #88]
 1310:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
-ARM GAS  /tmp/ccOAgmEO.s 			page 57
+ARM GAS  /tmp/ccVocXJv.s 			page 57
 
 
  1406              		.loc 1 1310 0
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1451 028a E368     		ldr	r3, [r4, #12]
  1452 028c 43F00203 		orr	r3, r3, #2
  1453 0290 E360     		str	r3, [r4, #12]
-ARM GAS  /tmp/ccOAgmEO.s 			page 58
+ARM GAS  /tmp/ccVocXJv.s 			page 58
 
 
 1303:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1504 0002 0368     		ldr	r3, [r0]
  1505              	.LVL115:
 1343:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
-ARM GAS  /tmp/ccOAgmEO.s 			page 59
+ARM GAS  /tmp/ccVocXJv.s 			page 59
 
 
  1506              		.loc 1 1343 0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1553 005c 05E0     		b	.L110
  1554              	.LVL121:
  1555              	.L131:
-ARM GAS  /tmp/ccOAgmEO.s 			page 60
+ARM GAS  /tmp/ccVocXJv.s 			page 60
 
 
 1345:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_UNMASK_HALT_HC_INT(ch_num);
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1600 00a2 83F85D20 		strb	r2, [r3, #93]
 1395:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
  1601              		.loc 1 1395 0
-ARM GAS  /tmp/ccOAgmEO.s 			page 61
+ARM GAS  /tmp/ccVocXJv.s 			page 61
 
 
  1602 00a6 93F83D30 		ldrb	r3, [r3, #61]	@ zero_extendqisi2
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1648 00f4 DA00     		lsls	r2, r3, #3
  1649 00f6 0244     		add	r2, r2, r0
  1650 00f8 0023     		movs	r3, #0
-ARM GAS  /tmp/ccOAgmEO.s 			page 62
+ARM GAS  /tmp/ccVocXJv.s 			page 62
 
 
  1651 00fa 9365     		str	r3, [r2, #88]
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1696              		.loc 1 1379 0
  1697 013c 0068     		ldr	r0, [r0]
  1698              	.LVL140:
-ARM GAS  /tmp/ccOAgmEO.s 			page 63
+ARM GAS  /tmp/ccVocXJv.s 			page 63
 
 
  1699 013e FFF7FEFF 		bl	USB_HC_Halt
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1744 0186 12F0020F 		tst	r2, #2
  1745 018a 3FF46EAF 		beq	.L110
 1424:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/ccOAgmEO.s 			page 64
+ARM GAS  /tmp/ccVocXJv.s 			page 64
 
 
  1746              		.loc 1 1424 0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1791 01d6 9165     		str	r1, [r2, #88]
 1454:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
  1792              		.loc 1 1454 0
-ARM GAS  /tmp/ccOAgmEO.s 			page 65
+ARM GAS  /tmp/ccVocXJv.s 			page 65
 
 
  1793 01d8 0421     		movs	r1, #4
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1837              		.loc 1 1417 0
  1838 021a 0068     		ldr	r0, [r0]
  1839              	.LVL158:
-ARM GAS  /tmp/ccOAgmEO.s 			page 66
+ARM GAS  /tmp/ccVocXJv.s 			page 66
 
 
  1840 021c FFF7FEFF 		bl	USB_HC_Halt
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
 1473:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  1886              		.loc 1 1473 0
  1887 0274 06EB8602 		add	r2, r6, r6, lsl #2
-ARM GAS  /tmp/ccOAgmEO.s 			page 67
+ARM GAS  /tmp/ccVocXJv.s 			page 67
 
 
  1888 0278 D300     		lsls	r3, r2, #3
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1939              	.LCFI21:
  1940              		.cfi_def_cfa_offset 24
  1941              		.cfi_offset 3, -24
-ARM GAS  /tmp/ccOAgmEO.s 			page 68
+ARM GAS  /tmp/ccVocXJv.s 			page 68
 
 
  1942              		.cfi_offset 4, -20
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  1988 003e 4FF48012 		mov	r2, #1048576
  1989 0042 5A61     		str	r2, [r3, #20]
  1990              	.L145:
-ARM GAS  /tmp/ccOAgmEO.s 			page 69
+ARM GAS  /tmp/ccVocXJv.s 			page 69
 
 
  522:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2037              	.LVL177:
  2038 0094 10F0007F 		tst	r0, #33554432
  2039 0098 30D1     		bne	.L161
-ARM GAS  /tmp/ccOAgmEO.s 			page 70
+ARM GAS  /tmp/ccVocXJv.s 			page 70
 
 
  2040              	.L151:
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2085              	.LVL182:
  2086 00ec C9E7     		b	.L149
  2087              	.L160:
-ARM GAS  /tmp/ccOAgmEO.s 			page 71
+ARM GAS  /tmp/ccVocXJv.s 			page 71
 
 
  565:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #endif /* USE_HAL_HCD_REGISTER_CALLBACKS */
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  581:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****           }
  2133              		.loc 1 581 0
  2134 0134 F1B2     		uxtb	r1, r6
-ARM GAS  /tmp/ccOAgmEO.s 			page 72
+ARM GAS  /tmp/ccVocXJv.s 			page 72
 
 
  2135 0136 2046     		mov	r0, r4
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2185 001a 2068     		ldr	r0, [r4]
  2186 001c FFF7FEFF 		bl	USB_DriveVbus
  2187              	.LVL193:
-ARM GAS  /tmp/ccOAgmEO.s 			page 73
+ARM GAS  /tmp/ccVocXJv.s 			page 73
 
 
 1011:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return HAL_OK;
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2236 0014 FFF7FEFF 		bl	USB_StopHost
  2237              	.LVL199:
 1025:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return HAL_OK;
-ARM GAS  /tmp/ccOAgmEO.s 			page 74
+ARM GAS  /tmp/ccVocXJv.s 			page 74
 
 
  2238              		.loc 1 1025 0 discriminator 2
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2289              		.global	HAL_HCD_GetState
  2290              		.syntax unified
  2291              		.thumb
-ARM GAS  /tmp/ccOAgmEO.s 			page 75
+ARM GAS  /tmp/ccVocXJv.s 			page 75
 
 
  2292              		.thumb_func
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2344              		.thumb_func
  2345              		.fpu fpv4-sp-d16
  2347              	HAL_HCD_HC_GetXferCount:
-ARM GAS  /tmp/ccOAgmEO.s 			page 76
+ARM GAS  /tmp/ccVocXJv.s 			page 76
 
 
  2348              	.LFB149:
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2399              		.thumb
  2400              		.thumb_func
  2401              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccOAgmEO.s 			page 77
+ARM GAS  /tmp/ccVocXJv.s 			page 77
 
 
  2403              	HAL_HCD_GetCurrentFrame:
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2453              	.LFE152:
  2455              		.text
  2456              	.Letext0:
-ARM GAS  /tmp/ccOAgmEO.s 			page 78
+ARM GAS  /tmp/ccVocXJv.s 			page 78
 
 
  2457              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -4630,71 +4630,71 @@ ARM GAS  /tmp/ccOAgmEO.s 			page 1
  2463              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h"
  2464              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h"
  2465              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  /tmp/ccOAgmEO.s 			page 79
+ARM GAS  /tmp/ccVocXJv.s 			page 79
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_hal_hcd.c
-     /tmp/ccOAgmEO.s:18     .text.HCD_RXQLVL_IRQHandler:0000000000000000 $t
-     /tmp/ccOAgmEO.s:24     .text.HCD_RXQLVL_IRQHandler:0000000000000000 HCD_RXQLVL_IRQHandler
-     /tmp/ccOAgmEO.s:121    .text.HCD_RXQLVL_IRQHandler:0000000000000078 $d
-     /tmp/ccOAgmEO.s:126    .text.HAL_HCD_HC_Init:0000000000000000 $t
-     /tmp/ccOAgmEO.s:133    .text.HAL_HCD_HC_Init:0000000000000000 HAL_HCD_HC_Init
-     /tmp/ccOAgmEO.s:235    .text.HAL_HCD_HC_Halt:0000000000000000 $t
-     /tmp/ccOAgmEO.s:242    .text.HAL_HCD_HC_Halt:0000000000000000 HAL_HCD_HC_Halt
-     /tmp/ccOAgmEO.s:288    .text.HAL_HCD_MspInit:0000000000000000 $t
-     /tmp/ccOAgmEO.s:295    .text.HAL_HCD_MspInit:0000000000000000 HAL_HCD_MspInit
-     /tmp/ccOAgmEO.s:309    .text.HAL_HCD_Init:0000000000000000 $t
-     /tmp/ccOAgmEO.s:316    .text.HAL_HCD_Init:0000000000000000 HAL_HCD_Init
-     /tmp/ccOAgmEO.s:438    .text.HAL_HCD_MspDeInit:0000000000000000 $t
-     /tmp/ccOAgmEO.s:445    .text.HAL_HCD_MspDeInit:0000000000000000 HAL_HCD_MspDeInit
-     /tmp/ccOAgmEO.s:459    .text.HAL_HCD_DeInit:0000000000000000 $t
-     /tmp/ccOAgmEO.s:466    .text.HAL_HCD_DeInit:0000000000000000 HAL_HCD_DeInit
-     /tmp/ccOAgmEO.s:512    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 $t
-     /tmp/ccOAgmEO.s:519    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 HAL_HCD_HC_SubmitRequest
-     /tmp/ccOAgmEO.s:559    .text.HAL_HCD_HC_SubmitRequest:0000000000000034 $d
-     /tmp/ccOAgmEO.s:563    .text.HAL_HCD_HC_SubmitRequest:0000000000000038 $t
-     /tmp/ccOAgmEO.s:762    .text.HAL_HCD_SOF_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:769    .text.HAL_HCD_SOF_Callback:0000000000000000 HAL_HCD_SOF_Callback
-     /tmp/ccOAgmEO.s:783    .text.HAL_HCD_Connect_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:790    .text.HAL_HCD_Connect_Callback:0000000000000000 HAL_HCD_Connect_Callback
-     /tmp/ccOAgmEO.s:804    .text.HAL_HCD_Disconnect_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:811    .text.HAL_HCD_Disconnect_Callback:0000000000000000 HAL_HCD_Disconnect_Callback
-     /tmp/ccOAgmEO.s:825    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:832    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 HAL_HCD_PortEnabled_Callback
-     /tmp/ccOAgmEO.s:846    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:853    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 HAL_HCD_PortDisabled_Callback
-     /tmp/ccOAgmEO.s:867    .text.HCD_Port_IRQHandler:0000000000000000 $t
-     /tmp/ccOAgmEO.s:873    .text.HCD_Port_IRQHandler:0000000000000000 HCD_Port_IRQHandler
-     /tmp/ccOAgmEO.s:1022   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 $t
-     /tmp/ccOAgmEO.s:1029   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 HAL_HCD_HC_NotifyURBChange_Callback
-     /tmp/ccOAgmEO.s:1043   .text.HCD_HC_IN_IRQHandler:0000000000000000 $t
-     /tmp/ccOAgmEO.s:1049   .text.HCD_HC_IN_IRQHandler:0000000000000000 HCD_HC_IN_IRQHandler
-     /tmp/ccOAgmEO.s:1481   .text.HCD_HC_OUT_IRQHandler:0000000000000000 $t
-     /tmp/ccOAgmEO.s:1487   .text.HCD_HC_OUT_IRQHandler:0000000000000000 HCD_HC_OUT_IRQHandler
-     /tmp/ccOAgmEO.s:1924   .text.HAL_HCD_IRQHandler:0000000000000000 $t
-     /tmp/ccOAgmEO.s:1931   .text.HAL_HCD_IRQHandler:0000000000000000 HAL_HCD_IRQHandler
-     /tmp/ccOAgmEO.s:2149   .text.HAL_HCD_Start:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2156   .text.HAL_HCD_Start:0000000000000000 HAL_HCD_Start
-     /tmp/ccOAgmEO.s:2205   .text.HAL_HCD_Stop:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2212   .text.HAL_HCD_Stop:0000000000000000 HAL_HCD_Stop
-     /tmp/ccOAgmEO.s:2258   .text.HAL_HCD_ResetPort:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2265   .text.HAL_HCD_ResetPort:0000000000000000 HAL_HCD_ResetPort
-     /tmp/ccOAgmEO.s:2288   .text.HAL_HCD_GetState:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2295   .text.HAL_HCD_GetState:0000000000000000 HAL_HCD_GetState
-     /tmp/ccOAgmEO.s:2312   .text.HAL_HCD_HC_GetURBState:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2319   .text.HAL_HCD_HC_GetURBState:0000000000000000 HAL_HCD_HC_GetURBState
-     /tmp/ccOAgmEO.s:2340   .text.HAL_HCD_HC_GetXferCount:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2347   .text.HAL_HCD_HC_GetXferCount:0000000000000000 HAL_HCD_HC_GetXferCount
-     /tmp/ccOAgmEO.s:2368   .text.HAL_HCD_HC_GetState:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2375   .text.HAL_HCD_HC_GetState:0000000000000000 HAL_HCD_HC_GetState
-     /tmp/ccOAgmEO.s:2396   .text.HAL_HCD_GetCurrentFrame:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2403   .text.HAL_HCD_GetCurrentFrame:0000000000000000 HAL_HCD_GetCurrentFrame
-ARM GAS  /tmp/ccOAgmEO.s 			page 80
+     /tmp/ccVocXJv.s:18     .text.HCD_RXQLVL_IRQHandler:0000000000000000 $t
+     /tmp/ccVocXJv.s:24     .text.HCD_RXQLVL_IRQHandler:0000000000000000 HCD_RXQLVL_IRQHandler
+     /tmp/ccVocXJv.s:121    .text.HCD_RXQLVL_IRQHandler:0000000000000078 $d
+     /tmp/ccVocXJv.s:126    .text.HAL_HCD_HC_Init:0000000000000000 $t
+     /tmp/ccVocXJv.s:133    .text.HAL_HCD_HC_Init:0000000000000000 HAL_HCD_HC_Init
+     /tmp/ccVocXJv.s:235    .text.HAL_HCD_HC_Halt:0000000000000000 $t
+     /tmp/ccVocXJv.s:242    .text.HAL_HCD_HC_Halt:0000000000000000 HAL_HCD_HC_Halt
+     /tmp/ccVocXJv.s:288    .text.HAL_HCD_MspInit:0000000000000000 $t
+     /tmp/ccVocXJv.s:295    .text.HAL_HCD_MspInit:0000000000000000 HAL_HCD_MspInit
+     /tmp/ccVocXJv.s:309    .text.HAL_HCD_Init:0000000000000000 $t
+     /tmp/ccVocXJv.s:316    .text.HAL_HCD_Init:0000000000000000 HAL_HCD_Init
+     /tmp/ccVocXJv.s:438    .text.HAL_HCD_MspDeInit:0000000000000000 $t
+     /tmp/ccVocXJv.s:445    .text.HAL_HCD_MspDeInit:0000000000000000 HAL_HCD_MspDeInit
+     /tmp/ccVocXJv.s:459    .text.HAL_HCD_DeInit:0000000000000000 $t
+     /tmp/ccVocXJv.s:466    .text.HAL_HCD_DeInit:0000000000000000 HAL_HCD_DeInit
+     /tmp/ccVocXJv.s:512    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 $t
+     /tmp/ccVocXJv.s:519    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 HAL_HCD_HC_SubmitRequest
+     /tmp/ccVocXJv.s:559    .text.HAL_HCD_HC_SubmitRequest:0000000000000034 $d
+     /tmp/ccVocXJv.s:563    .text.HAL_HCD_HC_SubmitRequest:0000000000000038 $t
+     /tmp/ccVocXJv.s:762    .text.HAL_HCD_SOF_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:769    .text.HAL_HCD_SOF_Callback:0000000000000000 HAL_HCD_SOF_Callback
+     /tmp/ccVocXJv.s:783    .text.HAL_HCD_Connect_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:790    .text.HAL_HCD_Connect_Callback:0000000000000000 HAL_HCD_Connect_Callback
+     /tmp/ccVocXJv.s:804    .text.HAL_HCD_Disconnect_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:811    .text.HAL_HCD_Disconnect_Callback:0000000000000000 HAL_HCD_Disconnect_Callback
+     /tmp/ccVocXJv.s:825    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:832    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 HAL_HCD_PortEnabled_Callback
+     /tmp/ccVocXJv.s:846    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:853    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 HAL_HCD_PortDisabled_Callback
+     /tmp/ccVocXJv.s:867    .text.HCD_Port_IRQHandler:0000000000000000 $t
+     /tmp/ccVocXJv.s:873    .text.HCD_Port_IRQHandler:0000000000000000 HCD_Port_IRQHandler
+     /tmp/ccVocXJv.s:1022   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 $t
+     /tmp/ccVocXJv.s:1029   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 HAL_HCD_HC_NotifyURBChange_Callback
+     /tmp/ccVocXJv.s:1043   .text.HCD_HC_IN_IRQHandler:0000000000000000 $t
+     /tmp/ccVocXJv.s:1049   .text.HCD_HC_IN_IRQHandler:0000000000000000 HCD_HC_IN_IRQHandler
+     /tmp/ccVocXJv.s:1481   .text.HCD_HC_OUT_IRQHandler:0000000000000000 $t
+     /tmp/ccVocXJv.s:1487   .text.HCD_HC_OUT_IRQHandler:0000000000000000 HCD_HC_OUT_IRQHandler
+     /tmp/ccVocXJv.s:1924   .text.HAL_HCD_IRQHandler:0000000000000000 $t
+     /tmp/ccVocXJv.s:1931   .text.HAL_HCD_IRQHandler:0000000000000000 HAL_HCD_IRQHandler
+     /tmp/ccVocXJv.s:2149   .text.HAL_HCD_Start:0000000000000000 $t
+     /tmp/ccVocXJv.s:2156   .text.HAL_HCD_Start:0000000000000000 HAL_HCD_Start
+     /tmp/ccVocXJv.s:2205   .text.HAL_HCD_Stop:0000000000000000 $t
+     /tmp/ccVocXJv.s:2212   .text.HAL_HCD_Stop:0000000000000000 HAL_HCD_Stop
+     /tmp/ccVocXJv.s:2258   .text.HAL_HCD_ResetPort:0000000000000000 $t
+     /tmp/ccVocXJv.s:2265   .text.HAL_HCD_ResetPort:0000000000000000 HAL_HCD_ResetPort
+     /tmp/ccVocXJv.s:2288   .text.HAL_HCD_GetState:0000000000000000 $t
+     /tmp/ccVocXJv.s:2295   .text.HAL_HCD_GetState:0000000000000000 HAL_HCD_GetState
+     /tmp/ccVocXJv.s:2312   .text.HAL_HCD_HC_GetURBState:0000000000000000 $t
+     /tmp/ccVocXJv.s:2319   .text.HAL_HCD_HC_GetURBState:0000000000000000 HAL_HCD_HC_GetURBState
+     /tmp/ccVocXJv.s:2340   .text.HAL_HCD_HC_GetXferCount:0000000000000000 $t
+     /tmp/ccVocXJv.s:2347   .text.HAL_HCD_HC_GetXferCount:0000000000000000 HAL_HCD_HC_GetXferCount
+     /tmp/ccVocXJv.s:2368   .text.HAL_HCD_HC_GetState:0000000000000000 $t
+     /tmp/ccVocXJv.s:2375   .text.HAL_HCD_HC_GetState:0000000000000000 HAL_HCD_HC_GetState
+     /tmp/ccVocXJv.s:2396   .text.HAL_HCD_GetCurrentFrame:0000000000000000 $t
+     /tmp/ccVocXJv.s:2403   .text.HAL_HCD_GetCurrentFrame:0000000000000000 HAL_HCD_GetCurrentFrame
+ARM GAS  /tmp/ccVocXJv.s 			page 80
 
 
-     /tmp/ccOAgmEO.s:2426   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 $t
-     /tmp/ccOAgmEO.s:2433   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 HAL_HCD_GetCurrentSpeed
+     /tmp/ccVocXJv.s:2426   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 $t
+     /tmp/ccVocXJv.s:2433   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 HAL_HCD_GetCurrentSpeed
 
 UNDEFINED SYMBOLS
 USB_ReadPacket
