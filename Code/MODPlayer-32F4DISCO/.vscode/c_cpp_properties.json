@@ -9,6 +9,7 @@
         "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
         "Inc",
         "Lib",
+        "Lib/HxCMOD",
         "Lib/w25qxx",
         "Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc",
         "Middlewares/ST/STM32_USB_Host_Library/Core/Inc"

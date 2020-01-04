@@ -64,6 +64,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c \
+Lib/HxCMOD/hxcmod.c \
 Lib/w25qxx/w25qxx.c \
 Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c \
 Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c \
@@ -71,6 +72,7 @@ Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c \
 Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c \
 Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c \
 Src/main.c \
+Src/mod_data.c \
 Src/stm32f4xx_hal_msp.c \
 Src/stm32f4xx_it.c \
 Src/system_stm32f4xx.c \
@@ -149,6 +151,7 @@ C_INCLUDES =  \
 -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy \
 -IInc \
 -ILib \
+-ILib/HxCMOD \
 -ILib/w25qxx \
 -IMiddlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc \
 -IMiddlewares/ST/STM32_USB_Host_Library/Core/Inc

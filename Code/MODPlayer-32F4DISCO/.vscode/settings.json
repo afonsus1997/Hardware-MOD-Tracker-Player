@@ -5,6 +5,10 @@
     "stm32-for-vscode.openocdPath": "openocd",
     "cortex-debug.openocdPath": "openocd",
     "files.associations": {
-        "w25qxxconf.h": "c"
+        "w25qxxconf.h": "c",
+        "stm32412g_discovery_lcd.h": "c",
+        "stm32412g_discovery.h": "c",
+        "ls016b8uy.h": "c",
+        "st7789h2.h": "c"
     }
 }
