@@ -16,6 +16,10 @@
 
 ```export PATH=$PATH:"PATH TO TOOLCHAIN"/bin/```
 
+* Test arm-gcc
+
+```arm-none-eabi-gcc --version```
+
 ### VSCODE Setup
 
 * Install ```stm32-for-vscode``` plugin
