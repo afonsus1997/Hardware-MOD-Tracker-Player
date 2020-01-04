@@ -20,6 +20,7 @@
 
 ```arm-none-eabi-gcc --version```
 
+
 ### VSCODE Setup
 
 * Install ```stm32-for-vscode``` plugin
@@ -81,3 +82,11 @@ For pinmaps, code generation, etc...
 * Build
 
 ```make -f STM32Make.make```
+
+* Build and flash
+
+```make -f STM32Make.make flash```
+
+* Clean 
+
+```make -f STM32Make.make clean```
