@@ -43,7 +43,8 @@ sudo cp build/Release/st-* /usr/local/bin
 #install udev rules
 sudo cp etc/udev/rules.d/49-stlinkv* /etc/udev/rules.d/
 #and restart udev
-sudo udevadm control --reload```
+sudo udevadm control --reload
+```
 
 ### Install openOCD
 
